@@ -1,2 +1,2 @@
-To Convert <test>.py file to <test>.exe
-  pyinstaller --onefile <test>.py from it's file location.
+To Convert <filename>.py file to <filename>.exe
+  pyinstaller --onefile <filename>.py from it's file location.
