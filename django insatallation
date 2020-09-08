@@ -12,3 +12,7 @@ $pip install Django
  if required in different port then
  $ python manage.py runserver 89
  --this will start the server in http://127.0.0.1:89/
+
+create polls
+$ python manage.py startapp polls
+--create some defalut files for apps of project
