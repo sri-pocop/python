@@ -1,0 +1,14 @@
+$pip install Django
+- will insatall django libraries
+
+ Go to the required location and
+ $ django-admin startproject <mysite>
+ - wil create a project named <mysite> with some default files
+ 
+ Go to the main directory using cd ... and 
+ $ python manage.py runserver
+ --this will start the server in http://127.0.0.1:8000/
+ 
+ if required in different port then
+ $ python manage.py runserver 89
+ --this will start the server in http://127.0.0.1:89/
