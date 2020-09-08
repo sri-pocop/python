@@ -16,3 +16,8 @@ $pip install Django
 create polls
 $ python manage.py startapp polls
 --create some defalut files for apps of project
+
+for creating supreuser
+$python manage.py makemigrations --creates migration files based on your models
+$python manage.py migrate will ---create the tables in your db based on the migration files created
+$python manage.py createsuperuser will create a superuser for your application in the database
